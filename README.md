@@ -11,9 +11,14 @@ commonMain (expect) → androidMain (actual) / iosMain (actual)
 [SettingsViewModel] → [SettingsRepository, DeviceInfo, NetworkMonitor, BatteryInfo]
 
 ## Screenshots
-![Device Info](screenshots/DeviceInfo.jpeg)
-![Network On](screenshots/Connected.jpeg)
-![Network Off](screenshots/NoInternet.jpeg)
+### Device Info
+![Device Info](DeviceInfo.jpeg)
+
+### Network ON
+![Network On](Connected.jpeg)
+
+### Network OFF
+![Network Off](NoInternet.jpeg)
 
 ## Features
 - Koin DI: semua dependencies diinjekt via AppModule
